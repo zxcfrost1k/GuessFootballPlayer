@@ -4,6 +4,12 @@
 
 <div>
   <b>
-    This Android application is a game.
+    Android application (probably game, idk). Soon I add a description.
   </b>
+</div>
+
+<div>
+  <em>
+    Now works? - Yea, u can check.
+  </em>
 </div>
