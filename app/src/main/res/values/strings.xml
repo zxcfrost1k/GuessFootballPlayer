@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">ClubPath</string>
 
     <string name="a">A</string>
@@ -40,22 +40,21 @@
     <string name="trophyCollection">Trophy Collection</string>
     <string name="questions">Questions</string>
     <string name="news">News</string>
+    <string name="selection">Selection</string>
 
     <string name="settingsWindow">SETTINGS</string>
+    <string name="trophyCollectionWindow">TROPHY COLLECTION</string>
+    <string name="askWindow">HOW TO PLAY</string>
+    <string name="newsWindow">WHAT`S NEW</string>
+    <string name="selectionWindow">SCOUTING</string>
+
     <string name="reset_progress">Reset Progress</string>
 
-    <string name="trophyCollectionWindow">TROPHY COLLECTION</string>
-
-    <string name="askWindow">HOW TO PLAY</string>
-
-    <string name="newsWindow">WHAT`S NEW?</string>
+    <string name="star1">50 CTR</string>
+    <string name="star3">100 CTR</string>
+    <string name="star5">150 CTR</string>
 
     <string name="success">Success</string>
-
-    <string name="selection">Selection</string>
-    <string name="light_selection">Light Selection</string>
-    <string name="mid_selection">Mid Selection</string>
-    <string name="hard_selection">Hard Selection</string>
 
     <string name="loan_on">Loan On</string>
     <string name="loan_off">Loan Off</string>

@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
-            android:name="com.example.guessplayer.ChapterDefaultActivity"
+            android:name="com.example.guessplayer.ChapterDefaultActivityRECAST"
             android:exported="false"/>
         <activity
-            android:name="com.example.guessplayer.MainActivity"
+            android:name="com.example.guessplayer.presentation.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

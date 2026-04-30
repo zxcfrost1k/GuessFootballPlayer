@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hiddenButtonsContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="175dp"
+    android:layout_height="55dp"
+    android:background="@drawable/stl_transparent_10"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:contentDescription="@string/settings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_settings"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/buttonTrophyCollection"
+        android:contentDescription="@string/trophyCollection"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_trophy"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/buttonAsk"
+        android:contentDescription="@string/questions"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_interrogation"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/buttonNews"
+        android:contentDescription="@string/news"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_megaphone"
+        app:tint="@color/white" />
+
+</LinearLayout>

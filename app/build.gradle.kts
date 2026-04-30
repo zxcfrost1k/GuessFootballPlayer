@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.example.guessplayer"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.guessplayer"
         minSdk = 34
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
@@ -63,13 +63,16 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation(libs.constraintlayout)
     implementation(libs.material)
     implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
+    implementation(libs.constraintlayout)
     implementation(libs.androidx.viewpager2)
     implementation(libs.filament.android)
     //noinspection UseTomlInstead
     implementation("androidx.cardview:cardview:1.0.0")
+    //noinspection UseTomlInstead
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

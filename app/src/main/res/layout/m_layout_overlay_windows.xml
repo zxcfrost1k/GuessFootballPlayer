@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/overlayWindow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stl_transparent_20"
+    android:visibility="gone"
+    android:elevation="10dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settingsCardView"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+
+        android:layout_centerInParent="true"
+
+        app:cardBackgroundColor="#BFFFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+
+                android:background="@drawable/stl_text_white"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/settingsWindow"
+                android:textColor="@color/black"
+
+                android:textSize="8pt"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:id="@+id/buttonResetProgress"
+                android:layout_width="170dp"
+                android:layout_height="27dp"
+
+                android:layout_marginTop="400dp"
+
+                android:background="@drawable/btn_letters"
+
+                android:fontFamily="serif"
+                android:textSize="6.5pt"
+                android:text="@string/reset_progress"
+                android:textColor="@color/black"
+
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/trophyCardView"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+
+        android:layout_centerInParent="true"
+
+        app:cardBackgroundColor="#BFFFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+
+                android:background="@drawable/stl_text_white"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/trophyCollectionWindow"
+                android:textColor="@color/black"
+
+                android:textSize="8pt"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/askCardView"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+
+        android:layout_centerInParent="true"
+
+        app:cardBackgroundColor="#BFFFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+
+                android:background="@drawable/stl_text_white"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/askWindow"
+                android:textColor="@color/black"
+
+                android:textSize="8pt"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/newsCardView"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+
+        android:layout_centerInParent="true"
+
+        app:cardBackgroundColor="#BFFFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+
+                android:background="@drawable/stl_text_white"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/newsWindow"
+                android:textColor="@color/black"
+
+                android:textSize="8pt"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
